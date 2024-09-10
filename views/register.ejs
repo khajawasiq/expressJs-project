@@ -8,26 +8,21 @@
 </head>
 <body>
     <div class="login-container">
-   
-        <h1>Login</h1>
-        <form id="loginForm" method="post" action="/login">
-     
-          <!-- <div class="input-group">
+        <h1>Register</h1>
+        <form id="loginForm" method="post" action="/register">
+          <div class="input-group">
             <label for="username">name</label>
-            <input type="text" id="name" name="name" required> -->
-          <!-- </div> -->
+            <input type="text" id="name" name="name" required>
+          </div>
           <div class="input-group">
             <label for="username">email</label>
-            <input type="text" id="email" name="email" value=<%= locals.email%> required>
+            <input type="text" id="email" name="email" required>
           </div>
           <div class="input-group">
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required>
           </div>
-     <p>
-      <%= note %>
-     </p>
-          <button type="submit">Login</button>
+          <button type="submit">Sign Up</button>
         </form>
       </div>
 </body>
